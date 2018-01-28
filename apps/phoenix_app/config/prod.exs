@@ -15,6 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 
 config :phoenix_app, PhoenixAppWeb.Endpoint,
+  check_origin: false,
   load_from_system_env: true,
   http: [:inet6, port: {:system, "PORT"}],
   url: [host: "localhost", port: 80],

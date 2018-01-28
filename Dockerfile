@@ -32,9 +32,9 @@ RUN apk upgrade --no-cache && \
     apk add --no-cache bash openssl
     # we need bash and openssl for Phoenix
 
-EXPOSE 4000
+EXPOSE 80
 
-ENV PORT=4000 \
+ENV PORT=80 \
     MIX_ENV=prod \
     REPLACE_OS_VARS=true \
     SHELL=/bin/bash

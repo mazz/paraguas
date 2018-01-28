@@ -16,7 +16,7 @@ npm install
 
 ## paraguas/apps/phoenix_app
 
-MIX_ENV=prod mix phoenix.digest
+MIX_ENV=prod mix phx.digest
 
 ## paraguas
 

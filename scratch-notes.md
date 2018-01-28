@@ -64,3 +64,8 @@ docker run --rm -ti \
 
 docker ps
 docker kill <image name>
+
+
+mkdir -p ./_build/prod/lib/phoenix_app/priv/static/.well-known
+(cd ./_build/prod/lib/phoenix_app/priv/static && \
+ echo "hello world" > .well-known/XXXYYY.html)

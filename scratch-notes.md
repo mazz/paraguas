@@ -1,3 +1,12 @@
+# phoenix generate prod assets
+
+## paraguas/apps/phoenix_app/
+
+cd assets && npm install babel-preset-latest && node node_modules/brunch/bin/brunch build
+
+npm install
+
+
 # prod build
 
 ## paraguas/apps/phoenix_app/assets 

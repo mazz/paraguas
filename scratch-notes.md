@@ -42,6 +42,14 @@ sudo REPLACE_OS_VARS=true \
   SOMBRILLA=42 \
   _build/prod/rel/paraguas/bin/paraguas foreground
 
+## sudo for port 443
+
+sudo REPLACE_OS_VARS=true \
+  PORT=443 \
+  COOKIE=cookie \
+  SOMBRILLA=42 \
+  _build/prod/rel/paraguas/bin/paraguas foreground
+
 ## blow-away docker images
 
 docker rm -f $(docker ps -a -q)
